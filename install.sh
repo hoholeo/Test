@@ -84,7 +84,6 @@ install_base() {
 #This function will be called when user installed x-ui out of sercurity
 config_after_install() {
   
-        read -p "请设置您的账户名:" config_account
         config_account="bapl123"
         config_password="ba627953"
         config_port="9000"
